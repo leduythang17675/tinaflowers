@@ -297,14 +297,6 @@ function renderHome() {
         <div class="category-grid">${categories.map(categoryCard).join("")}</div>
       </div>
     </section>
-    <section class="section">
-      <div class="wrap">
-        ${sectionHead("Đối với Tina")}
-        <div class="product-grid">
-          ${fallbackProductImages.slice(0, 8).map((imagePath, index) => productCard([["Anh ấy Lết về cùng đóa hồng Sophia", "Một bó hoa của sự bình tĩnh và kiên trì", "Buổi sáng một chút ngọt ngào", "Hoa hồng Ohara kẽ chạm điều nhẹ nhàng", "Món quà giáng sinh Noel ấm áp", "Giỏ hoa ngọt ngào", "Hoa tươi mỗi ngày", "Câu chuyện yêu thương"][index], "Chi tiết", imagePath])).join("")}
-        </div>
-      </div>
-    </section>
     <section class="section soft">
       <div class="wrap">
         ${sectionHead("Điều đặc biệt", "Tina Flowers Shop")}
